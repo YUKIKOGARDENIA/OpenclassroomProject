@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.mail {
+    margin: 100px;
+    background: radial-gradient(white,#ff79da);
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border: 2mm ridge #9356DC;
+}
+.mail h1 {
+    font-size: large;
+    color: #9356DC;
+    margin-bottom: 10px;
+}
+.mail h2 {
+    font-size: medium;
+}
+.mail p {
+    font-size: medium;
+    font-weight: bold;
+}
+.revenir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 30px;
+    border: solid 2px #9356DC;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+.revenir p {
+    font-size: medium;
+    font-weight: bold;
+}
+.revenir a {
+    text-decoration: none;
+}
